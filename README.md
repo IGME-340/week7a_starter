@@ -53,6 +53,7 @@ Everything today happens in `lib/main.dart`. No packages.
 | `GestureDetector` | Wrapped around the whole `Scaffold`, one `onTap` handles tap-to-dismiss for every field. |
 | `SingleChildScrollView` | Lets the page scroll, so the keyboard can't cover the bottom fields. |
 | `icon` / `prefixIcon` / `prefix` | Outside the border / inside and always visible / inside and only while focused. |
+| `Expanded` | Makes a child of a `Row` or `Column` take all the space that's left. A `TextField` inside a `Row` needs one, or you get a red screen. |
 
 `dispose()` every controller and focus node you create. We'll do that together.
 
